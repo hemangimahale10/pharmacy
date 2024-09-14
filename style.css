@@ -188,3 +188,161 @@ footer{
     margin: 50px;
     font-size: large;
 }
+
+
+/* Mobile Device */
+@media  screen and (max-width:500px) {
+    .header{
+        flex-wrap: wrap;
+        width: 1040px;
+    }
+
+    .header-img{
+        height: 90px;
+        width: 90px;
+    }
+    
+    .heading{
+        font-size: 55px;
+    }
+    
+    .nav_bar{
+        top: 80px;
+        margin: 0 20px 20px 200px;
+        
+    }
+    
+    .nav_bar-text{
+        padding: 20px;
+        font-size: 30px;
+    }
+    
+    .container{
+        flex-wrap: wrap;
+        margin: 40px 0 40px 100px;
+    }
+    
+    .card{
+        height: 300px;
+        width: 250px;
+    }
+    
+    .img{
+        height: 210px;
+        width: 250px;
+    }
+    
+    .text{
+        padding: 0 0 0 50px;
+        font-size: 40px;
+    }
+    
+    .offer-text{
+        font-size: 30px;
+    }
+    
+    .heading1{
+        font-size: 46px;
+        margin: 0 0 20px 50px;
+    }
+    
+    .container1{
+        flex-wrap: wrap;
+        margin: 0 0 50px 200px;
+        justify-content: center;
+    }
+    
+    .card1{
+        height: 350px;
+        width: 350px;
+        padding: 5px;
+        margin: 15px 0 0 0;
+    }
+    
+    .img1{
+        height: 300px;
+        width: 300px;
+        cursor: pointer;
+    }
+    
+    .container2{
+        padding: 20px;
+        width: 700px;
+        margin: 0 0 20px 180px;
+    }
+    
+    .rx-img{
+        height: 200px;
+        width: 200px;
+    }
+    
+    .prescription-text{
+        font-size: 40px;
+        font-weight: bold;
+        margin: -200px 0 10px 250px;
+    }
+    
+    .text-info{
+        margin: 0 0 0 250px;
+        font-size: 30px;
+    }
+    
+    .btn{
+        margin: 30px 0 0 250px;
+        padding: 20px 30px;
+        border-radius: 35px;
+        font-size: 30px;
+    }
+    
+    .container3{
+        padding: 20px;
+    }
+    
+    .heading2{
+        font-size: 46px;
+        margin: 0 0 30px 50px;
+    }
+    
+    .why-to-choose-us-container{
+        flex-wrap: wrap;
+        margin: 0 0 0 100px;
+    }
+    
+    .why-to-choose-us-card{
+        padding: 40px;
+        margin: -80px 0 0 0;
+    }
+    
+    .why-to-choose-us-img{
+        height: 220px;
+        width: 250px;
+    }
+    
+    .why-to-choose-us-text{
+        margin: -170px 0 20px 270px;
+        font-size: 40px;
+    }
+    
+    .why-to-choose-us-text-info{
+        margin: 0 0 0 270px;
+        font-size: 30px;
+    }
+    
+    footer{
+        padding: 40px 50px 10px 90px;
+        width: 900px;
+    }
+    
+    .footer-heading{
+        font-size: 35px;
+    }
+    
+    .footer-info{
+        font-size: 30px;
+    }
+    
+    .footer-text{
+        margin: 50px;
+        font-size: 29px;
+    }
+}
