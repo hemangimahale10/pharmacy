@@ -97,3 +97,35 @@
     width: 150px;
     cursor: pointer;
 }
+
+.container2{
+    background-color: rgb(241, 241, 249);
+    padding: 20px;
+    width: 550px;
+    margin: 0 0 20px 450px;
+}
+
+.rx-img{
+    height: 100px;
+    width: 100px;
+}
+
+.prescription-text{
+    font-size: 20px;
+    font-weight: bold;
+    margin: -100px 0 10px 150px;
+}
+
+.text-info{
+    margin: 0 0 0 150px;
+}
+
+.btn{
+    background-color: #0f9c56e6;
+    margin: 20px 0 0 150px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
