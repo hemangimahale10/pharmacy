@@ -137,3 +137,30 @@
 .heading2{
     font-size: 25px;
 }
+
+.why-to-choose-us-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.why-to-choose-us-card{
+    padding: 30px;
+    margin: -30px 0 0 0;
+}
+
+.why-to-choose-us-img{
+    height: 100px;
+    width: 100px;
+}
+
+.why-to-choose-us-text{
+    margin: -85px 0 10px 110px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.why-to-choose-us-text-info{
+    margin: 0 0 0 110px;
+    font-size: 18px;
+}
