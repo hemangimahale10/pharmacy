@@ -41,3 +41,36 @@
     font-size: 21px;
     cursor: pointer;
 }
+
+.container{
+    display: flex;
+    margin: 50px 40px 0 0;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    height: 200px;
+    width: 150px;
+    padding: 30px;
+}
+
+.card:hover{
+    box-shadow: 5px 5px rgba(37, 37, 37, 0.204);
+    cursor: pointer;
+}
+
+.img{
+    height: 110px;
+    width: 150px;
+}
+
+.text{
+    padding: 0 0 0 50px;
+    font-size: 18px;
+}
+
+.offer-text{
+    color: rgb(234, 98, 98);
+    padding: 0 0 0 35px;
+}
