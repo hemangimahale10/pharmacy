@@ -23,3 +23,21 @@
     font-size: 25px;
     font-weight: bold;
 }
+
+.nav_bar{
+    display: flex;
+    margin: 0 0 20px 380px;
+    background-color: #1bf387;
+    position: relative;
+    top: 50px;
+    border-radius: 70px;
+    height: fit-content;
+    flex-wrap: wrap;
+}
+
+.nav_bar-text{
+    padding: 15px;
+    text-decoration: solid;
+    font-size: 21px;
+    cursor: pointer;
+}
